@@ -4,7 +4,7 @@ title: rand()
 description: > # this means to ignore newlines until "baseurl:"
     A blog about programming, math, violin, hiking, biking and whatever else I
     feel like writing about.
-baseurl: "/blog" # the subpath of your site, e.g. /blog/
+baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://wdicharry.github.io" # the base hostname & protocol for your site
 #twitter_username: jekyllrb
 github_username:  wdicharry
