@@ -50,32 +50,38 @@ feet per second (cfs):
 ![Rio Grande at Embudo]({{ site.url }}/assets/rio_grande_embudo_flow.png)
 
 It's a log plot, so the difference between 100 cfs and 1000 cfs is displayed
-the same as difference between 1000 cfs and 10000 cfs. This keeps a few large
-and small flow events from hiding the variance in intermediate flows. In
+the same as difference between 1000 cfs and 10000 cfs. Since the maximum
+recorded flow in this period is 11700 cfs and the median flow is 508 cfs, the
+logarithmic scale keeps most of the color range from being allocated to flows
+that are rarely attained and hiding variation in more frequent flow values. In
 addition to the larger trends you could also see in the line plot, you can see
 more about flows throughout the year:
 
 * During dry years, the lowest flows occur during the spring runoff season.
-* 2003 and 2013 were both worse than the dust bowl of 1934.
+* 2001 and 2013 were both worse than the dust bowl of 1934.
 * The irrigation ditches get shut off every year on November 1.
 * In addition to the large flow peaks that occur in good water years during the
   runoff season, there are smaller flow peaks corresponding to the monsoon
   season.
+* The current drought, from about 2000 to the present, has lasted longer and
+  had flows that are consistently lower throughout the year than any of the
+  previous droughts.
 
 If you stare at it long enough, I'm sure you can find more interesting
-features. For my project at work, I'm visualizing quantities derived from the
-actual flow data. For example, I'm looking at municipal or environmental demand
-in the same way and calculating the difference in supply to find occurrences of
-water shortfall.
+features. Another way to use the raster plot is to visualize the days in
+which a particular event occurs:
 
-I wrote custom [Python](http://www.python.org) code to generate this plot,
+![Flow exceeds 75th percentile]({{ site.url }}/assets/rio_grande_embudo_75th.png)
+
+This plot shows the top 25% of all daily flow values. In drought years,
+especially the most recent ones, there are very few of these high flow events
+during the summer monsoon season, roughly from July through September. 
+
+I wrote custom [Python](http://www.python.org) code that uses [NumPy](http://numpy.org), [Pandas](http://pandas.pydata.org) and [Matplotlib](http://matplotlib.org) to generate this plot,
 which can be viewed at 
 [this GitHub Gist](https://gist.github.com/wdicharry/b549bc3b278456121700).
-The code I wrote also contains functionality to visualize different derived
-quantities and some additional analysis tools, as well as a way to fiddle with
-the color mapping. I hope to write another post about that part. If you just
-want to look at a raster hydrograph for a particular gage, though, the USGS
-provides them on
+ If you just want to look at a raster hydrograph for a particular gage, though,
+the USGS provides them on
 [their web site](http://waterwatch.usgs.gov/?id=wwchart_rastergraph).
 
 Prior to the most recent rain storm, the Embudo gage was running at about 700
