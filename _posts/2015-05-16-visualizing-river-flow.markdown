@@ -77,7 +77,9 @@ This plot shows the top 25% of all daily flow values. In drought years,
 especially the most recent ones, there are very few of these high flow events
 during the summer monsoon season, roughly from July through September. 
 
-I wrote custom [Python](http://www.python.org) code that uses [NumPy](http://numpy.org), [Pandas](http://pandas.pydata.org) and [Matplotlib](http://matplotlib.org) to generate this plot,
+I wrote custom [Python](http://www.python.org) code that uses
+[NumPy](http://numpy.org), [Pandas](http://pandas.pydata.org) and
+[Matplotlib](http://matplotlib.org) to generate these visualizations,
 which can be viewed at 
 [this GitHub Gist](https://gist.github.com/wdicharry/b549bc3b278456121700).
  If you just want to look at a raster hydrograph for a particular gage, though,
