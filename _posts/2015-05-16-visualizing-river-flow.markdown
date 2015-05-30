@@ -58,7 +58,7 @@ addition to the larger trends you could also see in the line plot, you can see
 more about flows throughout the year:
 
 * During dry years, the lowest flows occur during the spring runoff season.
-* 2001 and 2013 were both worse than the dust bowl of 1934.
+* 2001 and 2013 were similar to the dust bowl of 1934.
 * The irrigation ditches get shut off every year on November 1.
 * In addition to the large flow peaks that occur in good water years during the
   runoff season, there are smaller flow peaks corresponding to the monsoon
@@ -85,13 +85,4 @@ which can be viewed at
  If you just want to look at a raster hydrograph for a particular gage, though,
 the USGS provides them on
 [their web site](http://waterwatch.usgs.gov/?id=wwchart_rastergraph).
-
-Prior to the most recent rain storm, the Embudo gage was running at about 700
-cfs. That makes the stretch of river we run every year runnable, but rocky.
-After the rain, it went to 900 cfs. Last year (2014, the topmost row in the
-above graph), was not a great year either, but a well timed rain storm brought
-the flow to 1000 cfs for a few days, giving us the most water we'd seen in
-years. The data indicates that situations like that are happening more and
-more frequently and the flow conditions that I grew up with are a thing of the
-past.
 
