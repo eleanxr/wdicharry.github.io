@@ -6,6 +6,9 @@
     <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
     <meta name="description" content="{{ site.description }}">
 
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/fonts/Serif/cmun-serif.css" />
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/fonts/Sans/cmun-sans.css" />
+
     <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 </head>
